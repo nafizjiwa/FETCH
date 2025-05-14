@@ -54,13 +54,22 @@ Code:
             console.log('Post Title:', data.title);  // Output: Post Title: Example Title
             console.log('Post Body:', data.body);    // Output: Post Body: Example Body
           })
-          .catch(error => console.error('API Error:', error));    
+          .catch(error => console.error('API Error:', error));   
+Output:
+
+        "Post Title:"
+        "sunt aut facere repellat provident occaecati excepturi optio reprehenderit"
+        "Post Body:"
+        "quia et suscipit
+        suscipit recusandae consequuntur expedita et cum
+        reprehenderit molestiae ut ut quas totam
+        nostrum rerum est autem sunt rem eveniet architecto"
 
 Explanation:
 
-        fetch: Sends an HTTP request to the API endpoint.
-        response.json(): Parses the response into a JSON object.
-        The parsed JSON object can be accessed like any JavaScript object.
+        * fetch: Sends an HTTP request to the API endpoint.
+        * response.json(): Parses the response into a JSON object.
+        * The parsed JSON object can be accessed like any JavaScript object.
 
 Example 3: Sending Data to a JSON API
 
