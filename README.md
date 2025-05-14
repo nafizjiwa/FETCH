@@ -98,3 +98,6 @@ Code:
 Output:
 
     Response: {'title': 'New Post', 'body': 'This is the content of the post', 'userId': 1, 'id': 101}
+
+
+`https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch`
