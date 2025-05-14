@@ -1,5 +1,5 @@
-Fetch
-I rewrote the API call using async/await and fetch. The response of the fetch call is a Javascript Promise. You have to parse it to make it useful.
+### Fetch
+API call using async/await and fetch. The calls response Javascript Promise which must be parsed for usablility.
 
 const apiKey = process.env.REACT_APP_REBRANDLY_API_KEY;
 
